@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
     <title>Sign Up Form</title>
 </head>
+
 <body>
     <!-- Main -->
     <main>
-        
+        <div id="left">
+            <img class="background" src="assets/img/background.jpg" alt="background">
+            <div class="odin-logo">
+                <img src="assets/img/odin-lined.png" alt="odin-lined-logo" width="150">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="form-area">
+            <section class="upper">
+                <p>This is not a real online service! You know you need something like this
+                    in your life to help you realize your deepest dreams. <br>
+                    Sign up now to get started.
+                </p>
+                <p>You know you want to.</p>
+            </section>
+            <section class="form">
+                <form action="">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+
+                        <div class="form-input">
+                            <label for="firstname">* First Name
+                                <input type="text" name="firstname" minlength="3" id="firstname" required>
+                            </label>
+
+                            <label for="lastname">* Last Name
+                                <input type="text" name="lastname" minlength="3" id="lastname" required>
+                            </label>
+
+
+                            <label for="email">* Email
+                                <input type="email" name="email" id="email" required>
+                            </label>
+
+                            <label for="phone">Phone Number
+                                <input type="tel" name="phone" id="phone">
+                            </label>
+
+                            <label for="password">* Password
+                                <input type="password" name="password" minlength="8" id="password" required>
+                            </label>
+
+                            <label for="confirm-password">* Confirm password
+                                <input type="password" name="confirm-password" minlength="8" id="confirm-password" required>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="submit">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
+                </form>
+
+            </section>
+        </div>
     </main>
 </body>
+
 </html>
