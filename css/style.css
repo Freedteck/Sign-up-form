@@ -16,7 +16,6 @@ body {
 
 main {
     display: flex;
-    height: 100vh;
 }
 
 #left {
@@ -27,6 +26,7 @@ main {
 
 .background {
     width: 100%;
+    height: inherit;
 }
 
 .odin-logo {
@@ -38,13 +38,13 @@ main {
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: 'Norse Bold', sans-serif;
 }
 
 .form-area {
     flex-basis: 60%;
-    font-size: 2.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     display: flex;
     flex-direction: column;
@@ -55,18 +55,18 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
-    padding: 100px 80px 80px;
+    gap: 30px;
+    padding: 50px 30px 30px;
 }
 
 .form {
-    padding: 50px 0;
+    padding: 30px 0;
     background-color: white;
     flex: 1;
 }
 
 fieldset {
-    padding: 0 80px 50px;
+    padding: 0 30px 30px;
     border: none;
     box-shadow: 0 5px 7px #E5E7EB;
 }
@@ -75,29 +75,30 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 label {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: .8rem;
     flex-basis: 40%;
     text-transform: uppercase;
+    margin-right: 20px;
 }
 
 label p {
     color: red;
-    font-size: 1.2rem;
+    font-size: .8rem;
     text-transform: none;
 }
 
 input {
     display: block;
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    padding: 5px 10px;
     border-radius: 6px;
     border: 2px solid #E5E7EB;
-    font-size: 1.5rem;
+    font-size: 1rem;
     outline: none;
 }
 
@@ -118,22 +119,22 @@ a {
 }
 
 .submit {
-    padding: 80px;
-    padding-top: 50px;
+    padding: 30px;
+    padding-top: 30px;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
 button {
     background-color: #596D48;
     color: white;
-    padding: 15px 50px;
-    font-size: 1.5rem;
+    padding: 10px 30px;
+    font-size: 1rem;
     font-weight: 600;
-    width: 300px;
+    width: 200px;
     outline: none;
     border: none;
     border-radius: 10px;
